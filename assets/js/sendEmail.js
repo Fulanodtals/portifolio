@@ -1,7 +1,6 @@
 document.addEventListener("DOMContentLoaded", function () {
     document.getElementById("contactUs-Form").addEventListener("submit", function (event) {
         event.preventDefault();
-        console.log('enviando')
         
         const token = "7317534517:AAGc_xjKku8_hwLmuTDrMHyoUhHZ9X-E8JY";
         const chatId = "6005215116";
