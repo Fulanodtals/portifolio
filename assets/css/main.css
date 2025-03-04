@@ -29,6 +29,10 @@
     --grey: #DFDFDE;
 }
 
+a.link{
+    color: var(--purple);
+}
+
 *{
     font-family: 'Roboto', sans-serif;
     -webkit-box-sizing: border-box;
@@ -95,6 +99,7 @@ section{
 
 /*--------------------- 1- Heading CSS (Start) ---------------------*/
 .heading{
+    margin-top: 2rem;
     margin-bottom: 2rem;
 }
 
@@ -617,9 +622,12 @@ header #menu-btn:hover{
     background-color: var(--purple);
 }
 
-.service-item i{
+.service-item i {
     color: var(--white);
     font-size: 4rem;
+}
+.service-item svg{
+    fill: var(--white);
 }
 
 .service-item h3{
